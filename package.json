@@ -1,0 +1,22 @@
+{
+  "name": "hackgt-server",
+  "version": "1.0.0",
+  "description": "Ticket Buddy server side code",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.gatech.edu/dhathcock3/hackgt-server.git"
+  },
+  "author": "Daniel Hathcock, Yu-Lin Yang, Brian Glowniak, Kevin Liao",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.1",
+    "morgan": "^1.7.0"
+  }
+}
